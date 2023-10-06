@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.continer
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* start photo */
+.photo{
+    background-image: url(photo/banner.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.photo .continer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.photo .continer h2{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.photo .continer p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.photo .continer p span{
+    border-bottom:  dotted 4px white;
+}
+.photo .continer i{
+    font-size: 30px;
+    margin-top: 60px;
+    border:  solid 3px white;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media (max-width:992px) {
+    .photo .continer{
+        width: 100%;
+    }
+    
+}
+/* end photo */
+/* start about */
+.about{
+    background-color: #222;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about .continer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    gap: 20px;
+    text-align: center;
+}
+.about .continer img{
+    width: 100%;
+}
+.about .continer .box h2{
+    color: white;
+}
+.about .continer .box p{
+    line-height: 2;
+    color: white;
+
+}
+.about .continer .box .text {
+    background-color: black;
+    padding: 10px;
+}
+.about .continer .box .text a{
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+.about .continer .box:first-child .text a{
+    background-color: red;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+.about .continer .box:first-child .text a:hover{
+    background-color: blue;
+    color: black;
+}
+.about .continer .box:nth-child(2) .text a{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+.about .continer .box:nth-child(2) .text a:hover{
+    background-color: gold;
+    color: black;
+}
+.about .continer .box:nth-child(3) .text a{
+    background-color: rgb(29, 232, 202);
+    color: white;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+.about .continer .box:nth-child(3) .text a:hover{
+    background-color: green;
+    color: black;
+}
+.about .continer .box:nth-child(4) .text a{
+    background-color:orangered;
+    color: black;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+.about .continer .box:nth-child(4) .text a:hover{
+    background-color: yellow;
+    color: black;
+}
+.about .continer .box:nth-child(5) .text a{
+    background-color:rgb(87, 81, 81);
+    color: white;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+.about .continer .box:nth-child(5) .text a:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.about .continer .box:nth-child(6) .text a{
+    background-color:maroon;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+.about .continer .box:nth-child(6) .text a:hover{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+@media (max-width:767px) {
+    .about .continer{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+        gap: 20px;
+        text-align: center;
+    }
+    
+}
+/* end about */
+/* start footer */
+.footer{
+    background-color: black;
+    padding-top: 30px;
+}
+.footer .continer{
+    color: white;
+    text-align: center;
+    line-height: 2;
+}
+.footer .continer h2{
+    color: white;
+    font-weight: bold;
+}
+.footer .continer p{
+    color: #777;
+}
+.footer .continer i{
+    margin-left: 5px;
+}
+/* end footer */

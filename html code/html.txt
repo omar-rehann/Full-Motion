@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Lobster&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Pacifico&family=Passion+One&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start photo -->
+    <div class="photo">
+        <div class="continer">
+            <h2>Full Motion</h2>
+            <p>A responsive video gallery template with a functional lightbox designed by <span>Templated</span> and released under the Creative Commons License.</p>
+            <i class="fa-solid fa-angles-right fa-rotate-90" style="color: #ffffff;"></i>        </div>
+    </div>
+    <!-- end photo -->
+    <!-- start about -->
+    <div class="about">
+        <div class="continer">
+            <div class="box">
+                <img src="photo/pic01.jpg">
+                <div class="text">
+                    <h2>Nascetur nunc varius commodo</h2>
+                    <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+                    <a href="#">Watch</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/pic02.jpg">
+                <div class="text">
+                    <h2>Nascetur nunc varius commodo</h2>
+                    <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/pic03.jpg">
+                <div class="text">
+                    <h2>Nascetur nunc varius commodo</h2>
+                    <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/pic04.jpg">
+                <div class="text">
+                    <h2>Nascetur nunc varius commodo</h2>
+                    <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/pic05.jpg">
+                <div class="text">
+                    <h2>Nascetur nunc varius commodo</h2>
+                    <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/pic06.jpg">
+                <div class="text">
+                    <h2>Nascetur nunc varius commodo</h2>
+                    <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start footer -->
+    <div class="footer">
+        <div class="continer">
+            <h3>Etiam veroeros lorem</h3>
+            <p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>
+            <i class="fa-brands fa-facebook" style="color: #635c60;"></i>
+            <i class="fa-brands fa-instagram" style="color: #635c60;"></i>
+            <i class="fa-solid fa-envelope" style="color: #635c60"></i>
+            <i class="fa-brands fa-twitter"style="color: #635c60"></i>
+            <p>Side By Templated</p>
+            <p>By Omar Rehan</p>
+
+        </div>
+    </div>
+    <!-- end footer -->
+ 
+    
+</body>
+</html>
